@@ -1,0 +1,7 @@
+CONFIG.PROPERTIES file
+----------------------
+config.properties contains inputs used for baseclass
+./--can be used in java classes and in properties file.It represents current project home directory
+./xxx/xxx-takes to the current project directory and searches from there
+System.getProperty(user.dir)-can be used only in java class
+ReadConfig.java class is a simple java program to read the values from the config.properties.refer to "./com.iNetBanking_v1.utilities/ReadCongig.java"

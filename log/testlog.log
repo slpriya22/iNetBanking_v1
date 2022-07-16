@@ -1,0 +1,410 @@
+2022-07-15 19:05:44,255 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 19:05:48,235 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 19:05:55,700 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 19:05:55,926 - iNetBanking -INFO - Entered username
+2022-07-15 19:05:56,100 - iNetBanking -INFO - Entered password
+2022-07-15 19:06:04,822 - iNetBanking -INFO - Login button clicked
+2022-07-15 19:06:06,869 - iNetBanking -INFO - Login successful and page title verification passed
+2022-07-15 19:06:08,240 - iNetBanking -INFO - Clicked Logout.
+2022-07-15 19:06:22,158 - iNetBanking -INFO - Logged out successfully
+2022-07-15 19:06:22,161 - iNetBanking -INFO - Report generated for passed test.Check report for details
+2022-07-15 19:06:22,668 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 19:06:24,604 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 19:06:30,345 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 19:06:30,347 - iNetBanking -INFO - Login into url started
+2022-07-15 19:06:30,531 - iNetBanking -INFO - Entered username
+2022-07-15 19:06:30,674 - iNetBanking -INFO - Entered password
+2022-07-15 19:06:34,839 - iNetBanking -INFO - Clicked login button
+2022-07-15 19:06:34,840 - iNetBanking -INFO - Login is successful
+2022-07-15 19:06:34,841 - iNetBanking -INFO - -----Adding new customer details------
+2022-07-15 19:06:35,013 - iNetBanking -INFO - Clicked new customer link from home page
+2022-07-15 19:06:40,153 - iNetBanking -INFO - Closed some random ad by refreshing home page
+2022-07-15 19:06:41,087 - iNetBanking -INFO - Again new customer link is clicked after refreshing
+2022-07-15 19:06:43,219 - iNetBanking -INFO - Reset button is clicked to clear the fields before entering new customer details
+2022-07-15 19:06:43,364 - iNetBanking -INFO - Entered customer name
+2022-07-15 19:06:44,518 - iNetBanking -INFO - Entered gender
+2022-07-15 19:06:45,712 - iNetBanking -INFO - Entered date of birth
+2022-07-15 19:06:46,878 - iNetBanking -INFO - Entered address
+2022-07-15 19:06:48,013 - iNetBanking -INFO - Entered city
+2022-07-15 19:06:49,172 - iNetBanking -INFO - Entered state
+2022-07-15 19:06:50,345 - iNetBanking -INFO - Entered pin
+2022-07-15 19:06:51,523 - iNetBanking -INFO - Entered mobile number
+2022-07-15 19:06:52,691 - iNetBanking -INFO - Entered email id
+2022-07-15 19:06:53,820 - iNetBanking -INFO - Entered password
+2022-07-15 19:06:59,315 - iNetBanking -INFO - Clicked submit button
+2022-07-15 19:06:59,316 - iNetBanking -INFO - ----Validating registration process----
+2022-07-15 19:07:01,421 - iNetBanking -INFO - customer details created with id: 6975
+2022-07-15 19:07:01,421 - iNetBanking -INFO - New customer details registered successfully and validation is successful.
+2022-07-15 19:07:01,421 - iNetBanking -INFO - Report generated for passed test.Check report for details
+2022-07-15 19:07:01,899 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 19:07:03,270 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 19:07:09,480 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 19:07:09,483 - iNetBanking -INFO - Login into url started
+2022-07-15 19:07:09,633 - iNetBanking -INFO - Entered username
+2022-07-15 19:07:09,795 - iNetBanking -INFO - Entered password
+2022-07-15 19:07:13,979 - iNetBanking -INFO - Clicked login button
+2022-07-15 19:07:13,980 - iNetBanking -INFO - Login is successful
+2022-07-15 19:07:14,467 - iNetBanking -INFO - Clicked edit customer link from home page
+2022-07-15 19:07:19,574 - iNetBanking -INFO - Closed some random ad by refreshing home page
+2022-07-15 19:07:20,584 - iNetBanking -INFO - Again edit customer link is clicked after refreshing
+2022-07-15 19:07:22,697 - iNetBanking -INFO - Clicked reset button to clear cust id field to avoid any unexpected error before entering the customer id.
+2022-07-15 19:07:24,868 - iNetBanking -INFO - Entered customer id to be edited.
+2022-07-15 19:07:25,425 - iNetBanking -INFO - Clicked submit button to edit the customer details.
+2022-07-15 19:07:36,470 - iNetBanking -WARN - Customer ID you entered does not exist
+2022-07-15 19:07:36,485 - iNetBanking -INFO - Test Failed- report updated with screenshot.Please check report for details
+2022-07-15 19:09:23,167 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 19:09:26,287 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 19:09:32,206 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 19:09:32,439 - iNetBanking -INFO - Entered username
+2022-07-15 19:09:32,688 - iNetBanking -INFO - Entered password
+2022-07-15 19:09:40,091 - iNetBanking -INFO - Login button clicked
+2022-07-15 19:09:42,133 - iNetBanking -INFO - Login successful and page title verification passed
+2022-07-15 19:09:43,545 - iNetBanking -INFO - Clicked Logout.
+2022-07-15 19:09:57,355 - iNetBanking -INFO - Logged out successfully
+2022-07-15 19:09:57,358 - iNetBanking -INFO - Report generated for passed test.Check report for details
+2022-07-15 19:09:57,817 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 19:09:58,883 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 19:10:04,685 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 19:10:04,687 - iNetBanking -INFO - Login into url started
+2022-07-15 19:10:04,879 - iNetBanking -INFO - Entered username
+2022-07-15 19:10:05,026 - iNetBanking -INFO - Entered password
+2022-07-15 19:10:07,840 - iNetBanking -INFO - Test Failed- report updated with screenshot.Please check report for details
+2022-07-15 19:10:09,976 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 19:10:11,068 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 19:10:17,774 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 19:10:17,777 - iNetBanking -INFO - Login into url started
+2022-07-15 19:10:17,931 - iNetBanking -INFO - Entered username
+2022-07-15 19:10:18,071 - iNetBanking -INFO - Entered password
+2022-07-15 19:10:23,028 - iNetBanking -INFO - Clicked login button
+2022-07-15 19:10:23,030 - iNetBanking -INFO - Login is successful
+2022-07-15 19:10:23,358 - iNetBanking -INFO - Clicked edit customer link from home page
+2022-07-15 19:10:28,519 - iNetBanking -INFO - Closed some random ad by refreshing home page
+2022-07-15 19:10:30,479 - iNetBanking -INFO - Again edit customer link is clicked after refreshing
+2022-07-15 19:10:32,603 - iNetBanking -INFO - Clicked reset button to clear cust id field to avoid any unexpected error before entering the customer id.
+2022-07-15 19:10:34,751 - iNetBanking -INFO - Entered customer id to be edited.
+2022-07-15 19:10:36,789 - iNetBanking -INFO - Clicked submit button to edit the customer details.
+2022-07-15 19:10:38,798 - iNetBanking -INFO - ----Customer details editing started----
+2022-07-15 19:10:41,028 - iNetBanking -INFO - Entered address
+2022-07-15 19:10:43,249 - iNetBanking -INFO - Entered city
+2022-07-15 19:10:45,482 - iNetBanking -INFO - Entered state
+2022-07-15 19:10:47,718 - iNetBanking -INFO - Entered pin
+2022-07-15 19:10:49,960 - iNetBanking -INFO - Entered mobile number
+2022-07-15 19:10:52,204 - iNetBanking -INFO - Entered email id
+2022-07-15 19:10:56,342 - iNetBanking -INFO - Clicked submit button
+2022-07-15 19:10:56,343 - iNetBanking -INFO - ----Validating editing process----
+2022-07-15 19:11:07,419 - iNetBanking -INFO - Customer details edited successfully and validation is successful.
+2022-07-15 19:11:07,419 - iNetBanking -INFO - Report generated for passed test.Check report for details
+2022-07-15 19:19:41,305 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 19:19:45,690 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 19:19:51,755 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 19:19:52,112 - iNetBanking -INFO - Entered username
+2022-07-15 19:19:52,278 - iNetBanking -INFO - Entered password
+2022-07-15 19:19:58,895 - iNetBanking -INFO - Login button clicked
+2022-07-15 19:20:00,932 - iNetBanking -INFO - Login successful and page title verification passed
+2022-07-15 19:20:02,271 - iNetBanking -INFO - Clicked Logout.
+2022-07-15 19:20:18,665 - iNetBanking -INFO - Logged out successfully
+2022-07-15 19:20:18,668 - iNetBanking -INFO - Report generated for passed test.Check report for details
+2022-07-15 19:20:19,157 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 19:20:20,532 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 19:20:25,010 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 19:20:25,014 - iNetBanking -INFO - Login into url started
+2022-07-15 19:20:25,181 - iNetBanking -INFO - Entered username
+2022-07-15 19:20:25,305 - iNetBanking -INFO - Entered password
+2022-07-15 19:20:31,131 - iNetBanking -INFO - Clicked login button
+2022-07-15 19:20:31,133 - iNetBanking -INFO - Login is successful
+2022-07-15 19:20:31,134 - iNetBanking -INFO - -----Adding new customer details------
+2022-07-15 19:20:31,864 - iNetBanking -INFO - Clicked new customer link from home page
+2022-07-15 19:20:37,076 - iNetBanking -INFO - Closed some random ad by refreshing home page
+2022-07-15 19:20:38,193 - iNetBanking -INFO - Again new customer link is clicked after refreshing
+2022-07-15 19:20:40,303 - iNetBanking -INFO - Reset button is clicked to clear the fields before entering new customer details
+2022-07-15 19:20:40,410 - iNetBanking -INFO - Entered customer name
+2022-07-15 19:20:41,498 - iNetBanking -INFO - Entered gender
+2022-07-15 19:20:42,633 - iNetBanking -INFO - Entered date of birth
+2022-07-15 19:20:43,788 - iNetBanking -INFO - Entered address
+2022-07-15 19:20:44,924 - iNetBanking -INFO - Entered city
+2022-07-15 19:20:46,039 - iNetBanking -INFO - Entered state
+2022-07-15 19:20:47,158 - iNetBanking -INFO - Entered pin
+2022-07-15 19:20:48,309 - iNetBanking -INFO - Entered mobile number
+2022-07-15 19:20:49,464 - iNetBanking -INFO - Entered email id
+2022-07-15 19:20:50,576 - iNetBanking -INFO - Entered password
+2022-07-15 19:20:53,695 - iNetBanking -INFO - Clicked submit button
+2022-07-15 19:20:53,696 - iNetBanking -INFO - ----Validating registration process----
+2022-07-15 19:21:04,747 - iNetBanking -INFO - Registration failed due to incorrect or incomplete details.Please check log and report and try again.
+2022-07-15 19:21:04,770 - iNetBanking -INFO - Test Failed- report updated with screenshot.Please check report for details
+2022-07-15 19:21:05,379 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 19:21:06,650 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 19:21:11,187 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 19:21:11,191 - iNetBanking -INFO - Login into url started
+2022-07-15 19:21:11,332 - iNetBanking -INFO - Entered username
+2022-07-15 19:21:11,460 - iNetBanking -INFO - Entered password
+2022-07-15 19:21:16,553 - iNetBanking -INFO - Clicked login button
+2022-07-15 19:21:16,554 - iNetBanking -INFO - Login is successful
+2022-07-15 19:21:16,899 - iNetBanking -INFO - Clicked edit customer link from home page
+2022-07-15 19:21:22,052 - iNetBanking -INFO - Closed some random ad by refreshing home page
+2022-07-15 19:21:23,053 - iNetBanking -INFO - Again edit customer link is clicked after refreshing
+2022-07-15 19:21:25,145 - iNetBanking -INFO - Clicked reset button to clear cust id field to avoid any unexpected error before entering the customer id.
+2022-07-15 19:21:27,253 - iNetBanking -INFO - Entered customer id to be edited.
+2022-07-15 19:21:28,782 - iNetBanking -INFO - Clicked submit button to edit the customer details.
+2022-07-15 19:21:30,792 - iNetBanking -INFO - ----Customer details editing started----
+2022-07-15 19:21:32,969 - iNetBanking -INFO - Entered address
+2022-07-15 19:21:35,145 - iNetBanking -INFO - Entered city
+2022-07-15 19:21:37,315 - iNetBanking -INFO - Entered state
+2022-07-15 19:21:39,482 - iNetBanking -INFO - Entered pin
+2022-07-15 19:21:41,649 - iNetBanking -INFO - Entered mobile number
+2022-07-15 19:21:43,855 - iNetBanking -INFO - Entered email id
+2022-07-15 19:21:47,913 - iNetBanking -INFO - Clicked submit button
+2022-07-15 19:21:47,915 - iNetBanking -INFO - ----Validating editing process----
+2022-07-15 19:21:58,976 - iNetBanking -INFO - Customer details edited successfully and validation is successful.
+2022-07-15 19:21:58,976 - iNetBanking -INFO - Report generated for passed test.Check report for details
+2022-07-15 19:26:20,177 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 19:26:23,483 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 19:26:31,042 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 19:26:31,275 - iNetBanking -INFO - Entered username
+2022-07-15 19:26:31,475 - iNetBanking -INFO - Entered password
+2022-07-15 19:26:39,209 - iNetBanking -INFO - Login button clicked
+2022-07-15 19:26:41,254 - iNetBanking -INFO - Login successful and page title verification passed
+2022-07-15 19:26:42,620 - iNetBanking -INFO - Clicked Logout.
+2022-07-15 19:26:55,994 - iNetBanking -INFO - Logged out successfully
+2022-07-15 19:26:55,999 - iNetBanking -INFO - Report generated for passed test.Check report for details
+2022-07-15 19:26:56,490 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 19:26:57,691 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 19:27:04,507 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 19:27:04,509 - iNetBanking -INFO - Login into url started
+2022-07-15 19:27:04,652 - iNetBanking -INFO - Entered username
+2022-07-15 19:27:04,782 - iNetBanking -INFO - Entered password
+2022-07-15 19:27:09,167 - iNetBanking -INFO - Clicked login button
+2022-07-15 19:27:09,168 - iNetBanking -INFO - Login is successful
+2022-07-15 19:27:09,169 - iNetBanking -INFO - -----Adding new customer details------
+2022-07-15 19:27:09,347 - iNetBanking -INFO - Clicked new customer link from home page
+2022-07-15 19:27:14,483 - iNetBanking -INFO - Closed some random ad by refreshing home page
+2022-07-15 19:27:15,304 - iNetBanking -INFO - Again new customer link is clicked after refreshing
+2022-07-15 19:27:17,418 - iNetBanking -INFO - Reset button is clicked to clear the fields before entering new customer details
+2022-07-15 19:27:17,569 - iNetBanking -INFO - Entered customer name
+2022-07-15 19:27:18,689 - iNetBanking -INFO - Entered gender
+2022-07-15 19:27:19,835 - iNetBanking -INFO - Entered date of birth
+2022-07-15 19:27:21,005 - iNetBanking -INFO - Entered address
+2022-07-15 19:27:22,172 - iNetBanking -INFO - Entered city
+2022-07-15 19:27:23,353 - iNetBanking -INFO - Entered state
+2022-07-15 19:27:24,516 - iNetBanking -INFO - Entered pin
+2022-07-15 19:27:25,671 - iNetBanking -INFO - Entered mobile number
+2022-07-15 19:27:26,864 - iNetBanking -INFO - Entered email id
+2022-07-15 19:27:28,002 - iNetBanking -INFO - Entered password
+2022-07-15 19:27:33,334 - iNetBanking -INFO - Clicked submit button
+2022-07-15 19:27:33,335 - iNetBanking -INFO - ----Validating registration process----
+2022-07-15 19:27:35,424 - iNetBanking -INFO - customer details created with id: 1460
+2022-07-15 19:27:35,425 - iNetBanking -INFO - New customer details registered successfully and validation is successful.
+2022-07-15 19:27:35,426 - iNetBanking -INFO - Report generated for passed test.Check report for details
+2022-07-15 19:27:35,757 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 19:27:36,854 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 19:27:42,592 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 19:27:42,594 - iNetBanking -INFO - Login into url started
+2022-07-15 19:27:42,741 - iNetBanking -INFO - Entered username
+2022-07-15 19:27:42,870 - iNetBanking -INFO - Entered password
+2022-07-15 19:27:47,561 - iNetBanking -INFO - Clicked login button
+2022-07-15 19:27:47,562 - iNetBanking -INFO - Login is successful
+2022-07-15 19:27:47,895 - iNetBanking -INFO - Clicked edit customer link from home page
+2022-07-15 19:27:53,020 - iNetBanking -INFO - Closed some random ad by refreshing home page
+2022-07-15 19:27:54,047 - iNetBanking -INFO - Again edit customer link is clicked after refreshing
+2022-07-15 19:27:56,180 - iNetBanking -INFO - Clicked reset button to clear cust id field to avoid any unexpected error before entering the customer id.
+2022-07-15 19:27:58,312 - iNetBanking -INFO - Entered customer id to be edited.
+2022-07-15 19:27:59,780 - iNetBanking -INFO - Clicked submit button to edit the customer details.
+2022-07-15 19:28:01,785 - iNetBanking -INFO - ----Customer details editing started----
+2022-07-15 19:28:04,025 - iNetBanking -INFO - Entered address
+2022-07-15 19:28:06,237 - iNetBanking -INFO - Entered city
+2022-07-15 19:28:08,449 - iNetBanking -INFO - Entered state
+2022-07-15 19:28:10,648 - iNetBanking -INFO - Entered pin
+2022-07-15 19:28:12,851 - iNetBanking -INFO - Entered mobile number
+2022-07-15 19:28:15,349 - iNetBanking -INFO - Entered email id
+2022-07-15 19:28:19,440 - iNetBanking -INFO - Clicked submit button
+2022-07-15 19:28:19,442 - iNetBanking -INFO - ----Validating editing process----
+2022-07-15 19:28:30,505 - iNetBanking -INFO - Customer details edited successfully and validation is successful.
+2022-07-15 19:28:30,505 - iNetBanking -INFO - Report generated for passed test.Check report for details
+2022-07-15 20:23:01,649 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 20:23:07,139 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 20:23:12,197 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 20:23:12,435 - iNetBanking -INFO - Entered username
+2022-07-15 20:23:12,704 - iNetBanking -INFO - Entered password
+2022-07-15 20:23:20,954 - iNetBanking -INFO - Login button clicked
+2022-07-15 20:23:22,989 - iNetBanking -INFO - Login successful and page title verification passed
+2022-07-15 20:23:24,352 - iNetBanking -INFO - Clicked Logout.
+2022-07-15 20:23:37,433 - iNetBanking -INFO - Logged out successfully
+2022-07-15 20:23:37,439 - iNetBanking -INFO - Report generated for passed test.Check report for details
+2022-07-15 20:23:37,824 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 20:23:39,176 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 20:23:45,732 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 20:23:45,734 - iNetBanking -INFO - Login into url started
+2022-07-15 20:23:45,901 - iNetBanking -INFO - Entered username
+2022-07-15 20:23:46,045 - iNetBanking -INFO - Entered password
+2022-07-15 20:23:50,483 - iNetBanking -INFO - Clicked login button
+2022-07-15 20:23:50,483 - iNetBanking -INFO - Login is successful
+2022-07-15 20:23:50,484 - iNetBanking -INFO - -----Adding new customer details------
+2022-07-15 20:23:50,816 - iNetBanking -INFO - Clicked new customer link from home page
+2022-07-15 20:23:55,977 - iNetBanking -INFO - Closed some random ad by refreshing home page
+2022-07-15 20:23:56,803 - iNetBanking -INFO - Again new customer link is clicked after refreshing
+2022-07-15 20:23:58,912 - iNetBanking -INFO - Reset button is clicked to clear the fields before entering new customer details
+2022-07-15 20:23:59,032 - iNetBanking -INFO - Entered customer name
+2022-07-15 20:24:00,169 - iNetBanking -INFO - Entered gender
+2022-07-15 20:24:01,325 - iNetBanking -INFO - Entered date of birth
+2022-07-15 20:24:02,498 - iNetBanking -INFO - Entered address
+2022-07-15 20:24:03,646 - iNetBanking -INFO - Entered city
+2022-07-15 20:24:04,807 - iNetBanking -INFO - Entered state
+2022-07-15 20:24:06,000 - iNetBanking -INFO - Entered pin
+2022-07-15 20:24:07,166 - iNetBanking -INFO - Entered mobile number
+2022-07-15 20:24:08,337 - iNetBanking -INFO - Entered email id
+2022-07-15 20:24:09,444 - iNetBanking -INFO - Entered password
+2022-07-15 20:24:14,165 - iNetBanking -INFO - Clicked submit button
+2022-07-15 20:24:14,166 - iNetBanking -INFO - ----Validating registration process----
+2022-07-15 20:24:16,260 - iNetBanking -INFO - customer details created with id: 62933
+2022-07-15 20:24:16,260 - iNetBanking -INFO - New customer details registered successfully and validation is successful.
+2022-07-15 20:24:16,262 - iNetBanking -INFO - Report generated for passed test.Check report for details
+2022-07-15 20:24:16,630 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 20:24:17,806 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 20:24:23,475 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 20:24:23,477 - iNetBanking -INFO - Login into url started
+2022-07-15 20:24:23,636 - iNetBanking -INFO - Entered username
+2022-07-15 20:24:23,786 - iNetBanking -INFO - Entered password
+2022-07-15 20:24:28,261 - iNetBanking -INFO - Clicked login button
+2022-07-15 20:24:28,262 - iNetBanking -INFO - Login is successful
+2022-07-15 20:24:28,627 - iNetBanking -INFO - Clicked edit customer link from home page
+2022-07-15 20:24:33,875 - iNetBanking -INFO - Closed some random ad by refreshing home page
+2022-07-15 20:24:34,730 - iNetBanking -INFO - Again edit customer link is clicked after refreshing
+2022-07-15 20:24:36,836 - iNetBanking -INFO - Clicked reset button to clear cust id field to avoid any unexpected error before entering the customer id.
+2022-07-15 20:24:38,945 - iNetBanking -INFO - Entered customer id to be edited.
+2022-07-15 20:24:40,370 - iNetBanking -INFO - Clicked submit button to edit the customer details.
+2022-07-15 20:24:42,379 - iNetBanking -INFO - ----Customer details editing started----
+2022-07-15 20:24:44,550 - iNetBanking -INFO - Entered address
+2022-07-15 20:24:46,737 - iNetBanking -INFO - Entered city
+2022-07-15 20:24:48,908 - iNetBanking -INFO - Entered state
+2022-07-15 20:24:51,091 - iNetBanking -INFO - Entered pin
+2022-07-15 20:24:53,269 - iNetBanking -INFO - Entered mobile number
+2022-07-15 20:24:55,505 - iNetBanking -INFO - Entered email id
+2022-07-15 20:24:59,562 - iNetBanking -INFO - Clicked submit button
+2022-07-15 20:24:59,563 - iNetBanking -INFO - ----Validating editing process----
+2022-07-15 20:25:10,621 - iNetBanking -INFO - Customer details edited successfully and validation is successful.
+2022-07-15 20:25:10,623 - iNetBanking -INFO - Report generated for passed test.Check report for details
+2022-07-15 23:25:38,815 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 23:25:48,865 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 23:25:53,566 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 23:25:53,829 - iNetBanking -INFO - Entered username
+2022-07-15 23:25:53,991 - iNetBanking -INFO - Entered password
+2022-07-15 23:26:01,908 - iNetBanking -INFO - Login button clicked
+2022-07-15 23:26:03,956 - iNetBanking -INFO - Login successful and page title verification passed
+2022-07-15 23:26:05,435 - iNetBanking -INFO - Clicked Logout.
+2022-07-15 23:26:18,751 - iNetBanking -INFO - Logged out successfully
+2022-07-15 23:26:18,756 - iNetBanking -INFO - Report generated for passed test.Check report for details
+2022-07-15 23:26:19,213 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 23:26:20,774 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 23:26:25,388 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 23:26:25,392 - iNetBanking -INFO - Login into url started
+2022-07-15 23:26:25,622 - iNetBanking -INFO - Entered username
+2022-07-15 23:26:25,928 - iNetBanking -INFO - Entered password
+2022-07-15 23:26:30,931 - iNetBanking -INFO - Clicked login button
+2022-07-15 23:26:30,933 - iNetBanking -INFO - Login is successful
+2022-07-15 23:26:30,934 - iNetBanking -INFO - -----Adding new customer details------
+2022-07-15 23:26:31,059 - iNetBanking -INFO - Clicked new customer link from home page
+2022-07-15 23:26:36,278 - iNetBanking -INFO - Closed some random ad by refreshing home page
+2022-07-15 23:26:37,372 - iNetBanking -INFO - Again new customer link is clicked after refreshing
+2022-07-15 23:26:39,520 - iNetBanking -INFO - Reset button is clicked to clear the fields before entering new customer details
+2022-07-15 23:26:39,646 - iNetBanking -INFO - Entered customer name
+2022-07-15 23:26:40,783 - iNetBanking -INFO - Entered gender
+2022-07-15 23:26:41,960 - iNetBanking -INFO - Entered date of birth
+2022-07-15 23:26:43,151 - iNetBanking -INFO - Entered address
+2022-07-15 23:26:44,319 - iNetBanking -INFO - Entered city
+2022-07-15 23:26:45,482 - iNetBanking -INFO - Entered state
+2022-07-15 23:26:46,617 - iNetBanking -INFO - Entered pin
+2022-07-15 23:26:47,779 - iNetBanking -INFO - Entered mobile number
+2022-07-15 23:26:48,963 - iNetBanking -INFO - Entered email id
+2022-07-15 23:26:50,113 - iNetBanking -INFO - Entered password
+2022-07-15 23:26:56,254 - iNetBanking -INFO - Clicked submit button
+2022-07-15 23:26:56,254 - iNetBanking -INFO - ----Validating registration process----
+2022-07-15 23:26:58,373 - iNetBanking -INFO - customer details created with id: 32493
+2022-07-15 23:26:58,375 - iNetBanking -INFO - New customer details registered successfully and validation is successful.
+2022-07-15 23:26:58,376 - iNetBanking -INFO - Report generated for passed test.Check report for details
+2022-07-15 23:26:58,705 - iNetBanking -INFO - Launching chrome browser
+2022-07-15 23:27:00,301 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-15 23:27:04,642 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-15 23:27:04,644 - iNetBanking -INFO - Login into url started
+2022-07-15 23:27:04,809 - iNetBanking -INFO - Entered username
+2022-07-15 23:27:04,957 - iNetBanking -INFO - Entered password
+2022-07-15 23:27:10,393 - iNetBanking -INFO - Clicked login button
+2022-07-15 23:27:10,394 - iNetBanking -INFO - Login is successful
+2022-07-15 23:27:10,739 - iNetBanking -INFO - Clicked edit customer link from home page
+2022-07-15 23:27:15,900 - iNetBanking -INFO - Closed some random ad by refreshing home page
+2022-07-15 23:27:17,638 - iNetBanking -INFO - Again edit customer link is clicked after refreshing
+2022-07-15 23:27:19,798 - iNetBanking -INFO - Clicked reset button to clear cust id field to avoid any unexpected error before entering the customer id.
+2022-07-15 23:27:21,982 - iNetBanking -INFO - Entered customer id to be edited.
+2022-07-15 23:27:23,360 - iNetBanking -INFO - Clicked submit button to edit the customer details.
+2022-07-15 23:27:25,375 - iNetBanking -INFO - ----Customer details editing started----
+2022-07-15 23:27:27,641 - iNetBanking -INFO - Entered address
+2022-07-15 23:27:29,947 - iNetBanking -INFO - Entered city
+2022-07-15 23:27:32,175 - iNetBanking -INFO - Entered state
+2022-07-15 23:27:34,424 - iNetBanking -INFO - Entered pin
+2022-07-15 23:27:36,649 - iNetBanking -INFO - Entered mobile number
+2022-07-15 23:27:38,907 - iNetBanking -INFO - Entered email id
+2022-07-15 23:27:42,984 - iNetBanking -INFO - Clicked submit button
+2022-07-15 23:27:42,986 - iNetBanking -INFO - ----Validating editing process----
+2022-07-15 23:27:54,076 - iNetBanking -INFO - Customer details edited successfully and validation is successful.
+2022-07-15 23:27:54,077 - iNetBanking -INFO - Report generated for passed test.Check report for details
+2022-07-16 00:26:14,473 - iNetBanking -INFO - Launching chrome browser
+2022-07-16 00:26:21,285 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-16 00:26:27,902 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-16 00:26:28,141 - iNetBanking -INFO - Entered username
+2022-07-16 00:26:28,313 - iNetBanking -INFO - Entered password
+2022-07-16 00:26:36,908 - iNetBanking -INFO - Login button clicked
+2022-07-16 00:26:38,952 - iNetBanking -INFO - Login successful and page title verification passed
+2022-07-16 00:26:40,862 - iNetBanking -INFO - Clicked Logout.
+2022-07-16 00:26:54,287 - iNetBanking -INFO - Logged out successfully
+2022-07-16 00:26:54,291 - iNetBanking -INFO - Report generated for passed test.Check report for details
+2022-07-16 00:26:54,756 - iNetBanking -INFO - Launching chrome browser
+2022-07-16 00:26:56,177 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-16 00:27:00,524 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-16 00:27:00,526 - iNetBanking -INFO - Login into url started
+2022-07-16 00:27:00,709 - iNetBanking -INFO - Entered username
+2022-07-16 00:27:00,889 - iNetBanking -INFO - Entered password
+2022-07-16 00:27:06,435 - iNetBanking -INFO - Clicked login button
+2022-07-16 00:27:06,436 - iNetBanking -INFO - Login is successful
+2022-07-16 00:27:06,438 - iNetBanking -INFO - -----Adding new customer details------
+2022-07-16 00:27:06,823 - iNetBanking -INFO - Clicked new customer link from home page
+2022-07-16 00:27:12,038 - iNetBanking -INFO - Closed some random ad by refreshing home page
+2022-07-16 00:27:13,147 - iNetBanking -INFO - Again new customer link is clicked after refreshing
+2022-07-16 00:27:15,268 - iNetBanking -INFO - Reset button is clicked to clear the fields before entering new customer details
+2022-07-16 00:27:15,397 - iNetBanking -INFO - Entered customer name
+2022-07-16 00:27:16,511 - iNetBanking -INFO - Entered gender
+2022-07-16 00:27:17,662 - iNetBanking -INFO - Entered date of birth
+2022-07-16 00:27:18,837 - iNetBanking -INFO - Entered address
+2022-07-16 00:27:19,996 - iNetBanking -INFO - Entered city
+2022-07-16 00:27:21,151 - iNetBanking -INFO - Entered state
+2022-07-16 00:27:22,296 - iNetBanking -INFO - Entered pin
+2022-07-16 00:27:23,420 - iNetBanking -INFO - Entered mobile number
+2022-07-16 00:27:24,637 - iNetBanking -INFO - Entered email id
+2022-07-16 00:27:25,855 - iNetBanking -INFO - Entered password
+2022-07-16 00:27:31,940 - iNetBanking -INFO - Clicked submit button
+2022-07-16 00:27:31,941 - iNetBanking -INFO - ----Validating registration process----
+2022-07-16 00:27:34,027 - iNetBanking -INFO - customer details created with id: 76724
+2022-07-16 00:27:34,027 - iNetBanking -INFO - New customer details registered successfully and validation is successful.
+2022-07-16 00:27:34,028 - iNetBanking -INFO - Report generated for passed test.Check report for details
+2022-07-16 00:27:34,367 - iNetBanking -INFO - Launching chrome browser
+2022-07-16 00:27:36,368 - iNetBanking -INFO - Chrome browser launched succesfully
+2022-07-16 00:27:47,561 - iNetBanking -INFO - Opened url: https://demo.guru99.com/V4/
+2022-07-16 00:27:47,562 - iNetBanking -INFO - Login into url started
+2022-07-16 00:27:47,742 - iNetBanking -INFO - Entered username
+2022-07-16 00:27:47,889 - iNetBanking -INFO - Entered password
+2022-07-16 00:27:53,561 - iNetBanking -INFO - Clicked login button
+2022-07-16 00:27:53,562 - iNetBanking -INFO - Login is successful
+2022-07-16 00:27:53,680 - iNetBanking -INFO - Clicked edit customer link from home page
+2022-07-16 00:27:58,860 - iNetBanking -INFO - Closed some random ad by refreshing home page
+2022-07-16 00:28:00,640 - iNetBanking -INFO - Again edit customer link is clicked after refreshing
+2022-07-16 00:28:02,751 - iNetBanking -INFO - Clicked reset button to clear cust id field to avoid any unexpected error before entering the customer id.
+2022-07-16 00:28:04,939 - iNetBanking -INFO - Entered customer id to be edited.
+2022-07-16 00:28:08,121 - iNetBanking -INFO - Clicked submit button to edit the customer details.
+2022-07-16 00:28:10,136 - iNetBanking -INFO - ----Customer details editing started----
+2022-07-16 00:28:12,363 - iNetBanking -INFO - Entered address
+2022-07-16 00:28:14,583 - iNetBanking -INFO - Entered city
+2022-07-16 00:28:16,781 - iNetBanking -INFO - Entered state
+2022-07-16 00:28:19,012 - iNetBanking -INFO - Entered pin
+2022-07-16 00:28:21,245 - iNetBanking -INFO - Entered mobile number
+2022-07-16 00:28:23,470 - iNetBanking -INFO - Entered email id
+2022-07-16 00:28:28,157 - iNetBanking -INFO - Clicked submit button
+2022-07-16 00:28:28,157 - iNetBanking -INFO - ----Validating editing process----
+2022-07-16 00:28:40,701 - iNetBanking -INFO - Customer details edited successfully and validation is successful.
+2022-07-16 00:28:40,702 - iNetBanking -INFO - Report generated for passed test.Check report for details

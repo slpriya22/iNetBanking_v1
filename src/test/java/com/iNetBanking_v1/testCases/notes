@@ -1,0 +1,123 @@
+CHANGES NEEDS TO BE DONE IN THE TEST CASES
+---------------------------------------------
+rewrite delete customer with while alertpresent is true accept it and get the msg and chk instead of nested if
+try to rewrite in other program also...and execute it..create new test cases and execute separately as current testcses works fine
+after all execution and everything..write add customer,edit,delete with excel ddt test cases
+for add customer 2d array
+for edit and delete just cust id needs to be passed for i value only changes,j is 0 always..pas parameters like thta
+and use same excel with different sheet names for login,adding,editing,deleting
+
+added alert box message to log whether it is failure login or logged out alert in login DDT test case as it requires 
+log out also for testing many sets of credentials
+
+add customer details also in config.properties and try accessing from there..think logic and make it work 
+refresh the page when any new customer,edit customer links are clicked to close the random ads to avoid stale element exception
+Write test cases for edit customer,delete customer hardcoding in code value,ddt,from config properties file too
+
+
+To execute only failed test cases once fixed,dont execute the testng.xml,so all test cases failed n passed will be executed again
+Execute the testng-failed.xml in test-output folder to execute only failed test cases when failures are fixed
+
+UNFORTUNATELY ALERT BOX MESSAGE IS NOT POSSIBLE.my reporting.java or pavan reorting .java cant take porper screesnhot for failure case
+add only custom message in logger.info or logger.warn with the alert box gettext() to show the porper error message
+
+BASECLASS
+---------------------------------------------------------------------------------------------------
+As setup() for driver setup and object for driver
+and tearDown() to close the browser
+These 2 are common for all test.So a baseclass is created to keep all the common stuffs in there
+Any other common codes are put in baseclass to avoid repeating of code
+We can extend the baseclass in the testcases to use the common codes/setup
+
+WebDriver Manager use
+---------------------
+Selenium WebDriver is an automation tool widely popular and is useful to run tests against 
+multiple browsers like Google Chrome browser, Firefox Browser, Internet Explorer, etc. 
+This type of testing done on different browsers is usually known as Cross-Browser Testing. 
+So if we want to launch any of these browsers' drivers for testing, we have to set the corresponding 
+executable path explicitly. After that, we instantiate the appropriate driver instance and go 
+ahead with the code we want to execute. 
+These steps become cumbersome as we need to carry them out 
+every time the versions change. Hence we use the "WebDriverManager" class in Selenium.
+Using WebDriverManager, we can download the binary file (or .exe files) of the driver for 
+automation testing. 
+
+So a WebDriverManager class in Selenium:
+----------------------------------------
+1.automates the management of WebDriver binaries.
+2.downloads the appropriate driver binaries, if not already present, into the local cache.
+3.downloads the latest version of the browser binary, unless otherwise specified.
+4.Eliminates the need to store driver binaries locally. We also need not maintain various versions 
+of the binary driver files for different browsers.
+5.It downloads specified WebDriver binary. If the binaries are not present on the machine, 
+then it will download the WebDriver binaries. Next, it instantiates the Selenium WebDriver instance with the 
+ChromeDriver/required browser driver.
+
+ERRORS ENCOUNTERED WHILE EXECUTING LOGINPAGETEST using testng test
+------------------------------------------------------------------
+1)keep dependency of selenium,testng,webdrivermanager at top before anything.Otherwise 'NoSuchMethod exception' appears for 
+@BeforeClass for setup() while initialising drivers
+
+2)'WebDriverException' appears when a button is not clickable.So while locating the element use correct name,id from the html tag
+.If Still not clickable use javascriptExecutor to click the element
+
+
+log4j dependency to be added for Logger and PropertyConfigurator
+----------------------------------------------------------------
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-1.2-api -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-1.2-api</artifactId>
+    <version>2.17.2</version>
+    <scope>test</scope>
+</dependency>
+if others are not required delete it..Dont import from //import org.apache.logging.log4j.core.Logger;//no no
+//import org.apache.logging.log4j.Logger;//no no
+
+
+RUN TEST CASE ON DESIRED BROWSER IS THROUGH TESTNG.xml-refer the testng.xml for more details on how to run on different browsers
+cross browser testing and to test parallely on all browsers too
+
+
+LOGINDDT_002.java
+------------------
+1)for data driven method-dependencies 2 dependencies
+apache-poi->poi and apache-poi->poi-ooxml neede in pom.xml
+3)XLUtils.java to read,write data to and from excel file..it has only one row and one column in the methods.So when this method is called from
+any main test cases use for loop to do the action
+this uses data driven approach to read many values from the excel file
+3)DATAPROVIDER METHOD is used
+have some valid and invalid data in the excel for a set of username and password
+need to write for loop to read username and passsword one by one into a 2d array to store it
+with elimination of username and password title row...the values actually starts from cell [1][0] from excel for username
+and [1][1] for password
+so from [1][0] the values are getting stored in 2d array indexes [0][0] for username
+from [1][1] the values are getting stored in 2d array indexes [0][1] for password
+so using logic [i][j] from excel to [i-1][j] in 2d array..use this in for loop
+
+4)LoginDDT test case
+---------------------
+TEST CASE SCENARIO
+1)this has both valid and invalid credentials login
+For valid login for many users n password- login with one set,verify title,logout to again make it possible to enter another set of users and password
+while logout it pops alert window
+2)For invalid login-invalid username or password -a pop up alert window which says username and password not valid
+
+when the link is clicked ransom ad is appearing,refreshing the page removes the ad but trying to click the add,edit,delete links from home page results in stale element even POM is used
+//so handled using try catch method,,delete was slow to achieve this so again found using xpath seprately
+again try initilaising POM in delete and use while loop for alertpresent take the alert msg..try in other codes as well
+
+Avoid nested ifs..make code simple..when gets time
+loop as long as alert is present and use switch case to chk for alert msg......and log info and actions as per it
+
+ADD CUSTOMER CLASS-----
+-----------------------------
+
+add random string n number generation for email n mobie number
+
+convert pin,telephone number if int to string before passing to page object class as sendKeys accepts only string not int
+converts all inputs to string before sending to the text boxes
+randomUtils is pre-defined class which has the methods to do below actions
+randomAlphaNum() is used to generate random alphabets and numbers combo from 0 to 9 and a to z both in lower and caps as per the count
+randomNum() is used for testing purpose only .In real time real data is sent.So that time no need for these random num or random string method
+randomNumeric() is a static method of the RandomStringUtils class which is used to generate random string consisting of numeric characters.

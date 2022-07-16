@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--add browser execution for ie and firefox also from the deleted notepad in priya training folder-->
+<!--to execute only failed test cases, execute testng-failed.xml in test-output folder once failure is fixed-->
+<!--this xml executes the test cases in all required browsers..everytime test case is invoked for each browser-->
+<!--this is cross browser testing.If want to do it parallel give parameter as parallel in suite tag..refer parallel and parameters demo examples-->
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="iNetBanking_v1">
+<!--suite name="iNetBanking_v1" parallel="tests" thread-count="2"..to run both chrome n ff tests in parallel-->
+<!--if parallel is not mentioned then in sequential order the tests are executed with diff browsers-->
+
+<!--add listeners tag with listener class with pkg name pkgname.listenerclassname without extension-->
+  <listeners>
+      <listener class-name="com.iNetBanking_v1.utilities.Reporting_myCode"/>
+   </listeners>
+
+  <test thread-count="5" name="LoginTest_chrome">
+  <parameter name="browser" value="chrome"/>
+  <!--if browser parameter is passed before test tag,then both times firefox get executed as it is added globally-->
+    <classes>
+      <!--class name="com.iNetBanking_v1.testCases.BaseClass"/-->
+      <!--...xml file can run only test cases.so No baseclass in this-->
+      <!--make sure all test cases has @Test annotations-->
+      <class name="com.iNetBanking_v1.testCases.TC_LoginPageTest_001_myCode"/>    
+      <!--class name="com.iNetBanking_v1.testCases.TC_LoginDDT_002_myCode"/-->  
+      <class name="com.iNetBanking_v1.testCases.TC_AddNewCustomerPageTest_003_myCode"/> 
+      <class name="com.iNetBanking_v1.testCases.TC_EditCustomerPageTest_004_myCode"/> 
+      <!--class name="com.iNetBanking_v1.testCases.TC_DeleteCustomerPageTest_005_myCode"/--> 
+      <!--class name="com.iNetBanking_v1.testCases.TC_Logout_006_myCode"/-->
+         
+      
+   </classes>
+  </test> <!-- Test --> 
+</suite> <!-- Suite -->

@@ -1,0 +1,7 @@
+We dont require in latest selenium version as the webDriver manager downloads it.Only this is used when using 
+System.setProperty(setting of driver and its path)
+we are now using WebDriverManager-So no need to use System.setProperty to set the drivers and its path.
+So check whether have these in drivers folder is useful or not
+Try executing code with and without the drivers folder
+copy gecko and ie drivers.exe file too
+have those browsers also ready

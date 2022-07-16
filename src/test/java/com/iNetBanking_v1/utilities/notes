@@ -1,0 +1,50 @@
+READCONFIG.java file
+----------------------
+config.properties contains inputs used for baseclass.Values are not used within quotes " "
+./--can be used in java classes and in properties file.It represents current project home directory
+./xxx/xxx-takes to the current project directory and searches from there
+System.getProperty(user.dir)-can be used only in java class
+ReadConfig.java class is a simple java program to read the values from the config.properties.refer to "./com.iNetBanking_v1.utilities\\ReadCongig.java"
+
+REPORTING.JAVA
+--------------
+this uses extent report with testng listeners
+extent version 5 don't use and doesnt support loading of extent-config.xml and also htmlReporter is deprecated and replaced with ExtentSparkReporter
+Don's use ChartLocation and extent-config.xml anymore
+check for user defined screenshot method in listener class..check the output with and without it
+After adding listeners and integrating it with test cases in testNG.xml by giving pkg.listenerclassname without extn in listener tag under suite tag
+from now onwards execution of code is from testNG xml only
+
+CHANGES FROM PAVAN TRAINING REPORTING CLASS AND MY REPORTING CLASS
+FOR FAILURE and SKIPPED TEST CASE SCREENSHOTS
+----------------------------------------------
+changes from pavan training reporting class from my class is
+**********
+1)chk pavan training class for the failure n skipped screenshot-EXECUTE IT AND CHECK
+.User defined method is in baseclass for this and this is called from the login test cases and any other test cases in failure cndn..
+best reporting class is my class..as there neednt be any changes done in test cases to add extra stt for failure to capture the screenshot
+everything is done in reporting class itself..TRY EXECUTING THIS LATER AND CHECK ITS WORKING
+Skipped cndn cant have screenshot in his approach only failure case can have..My approach is best for getting screenshot for both failure and skipped
+***********
+2)i added user -defined screenshot method inside the reporting class by getting driver object from baseclass using BASECLASS.driver
+3)and taking screenshot and creating it in the folder and also added in the report
+4)added screenshot for skipped test case too for more details and added logger from baseclass to update in log using BASECLASS.logger
+as reporting class also uses one logger object.
+As webdriver is declared static in baseclass no need to create object to use driver or logger.Use the classname directly to call it.
+Java program itself suggesting when object is created for baseclass and when used
+5)For skipped test case, disconnect internet and run the testNG xml
+For failure change the title to mismatch
+6)For background color change change in the reporting class the theme to dark or standard
+7)TRY STACK OVERFLOW REPORTING CLASS APPROACH
+
+
+XLUTILS class
+-------------
+add apache poi-poi n poi-ooxml 2 dependencies
+use this same code for all excel sheet reading of data..it has standard codes
+It counts the rouw count and column count dynamically at run time only..
+so used for all excel files to read data and write data to and from excel file
+
+all are static reusale methods to work with excel file
+just call directly the method wherever needed
+use / or \\ and check for both and decide what to be used for path specify..test using both / and \\

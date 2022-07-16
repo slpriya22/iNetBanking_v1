@@ -1,0 +1,140 @@
+//code without error according to our project and execute and see whether it creates screenshots as per requirement for failure condition
+
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.ITestContext;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
+import com.aventstack.extentreports.MediaEntityModelProvider;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
+
+import gov.nv.dwss.nvkids.selenium.api.base.CustomExtentTest;
+import gov.nv.dwss.nvkids.selenium.utils.ReadPropertyFile;
+
+public abstract class Reporter{
+
+
+        public RemoteWebDriver driver;
+        private static ExtentReports extent;
+        public  ExtentTest test;
+        public String testcaseName, testcaseDec, author ; 
+        public String category;
+        private Logger log=Logger.getLogger(Reporter.class);
+
+        @BeforeSuite (alwaysRun = true)
+        public void startReport(ITestContext c) throws IOException 
+        {
+            System.setProperty("org.freemarker.loggerLibrary", "none");
+            try {
+                Properties prop=new Properties();
+                prop.load(new FileInputStream("./Resources/log4j.properties"));
+                PropertyConfigurator.configure(prop);
+                } catch (Exception e) {
+                log.error(e);
+            }
+            log.debug("Configuring Extent Report...");
+            ExtentSparkReporter reporter;
+            String extentreportpath;
+            String reportName=this.getClass().getName().substring(29, 33).toUpperCase() +" - Test Report";
+            String suiteName = c.getCurrentXmlTest().getSuite().getName()+" - Test Report";
+            if (suiteName.contains("Default suite")||suiteName.contains("Failed suite"))
+            {
+                suiteName =reportName;
+            }
+            String rptName="h5{font-size: 0px;}h5::after{content:\'"+suiteName+"\';font-size: 1.64rem; line-height: 110%;margin: 0.82rem 0 0.656rem 0;}";
+            extentreportpath="./reports/"+suiteName+".html";
+            reporter = new ExtentSparkReporter(extentreportpath);
+            //reporter.setAppendExisting(true);         
+            extent   = new ExtentReports(); 
+            extent.attachReporter(reporter);
+            extent.setSystemInfo("URL", ReadPropertyFile.getInstance().getPropertyValue("URL"));
+            //reporter.loadXMLConfig("./Resources/extent-config.xml");
+            reporter.config().setTheme(Theme.DARK);
+            //reporter.config().setTestViewChartLocation(ChartLocation.BOTTOM);
+            reporter.config().setReportName(suiteName);
+            reporter.config().setCSS(rptName);
+            log.info("Extent Report Configured Successfully");
+
+        }
+
+        @Parameters({"browser"})
+        @BeforeClass(alwaysRun = true)
+        public ExtentTest report(@Optional("browser") String browser)  
+        {
+             if(ReadPropertyFile.getInstance().getPropertyValue("RunMode").equalsIgnoreCase("STANDALONE"))
+            {
+                if(browser.equals("browser")) {
+                    browser = ReadPropertyFile.getInstance().getPropertyValue("Browser");
+                }
+            }
+            test = extent.createTest(testcaseName, testcaseDec +" <br /><br />Browser Name: "+browser+" <br /><br />Category: "+category);
+            test.assignAuthor(author);
+            CustomExtentTest extenttst = CustomExtentTest.getInstance();
+            extenttst.setExtentTest(test);
+            return test;  
+        }
+
+
+
+        public abstract long takeSnap();
+
+        public void reportStep(String desc,String status,boolean bSnap)
+        {
+            MediaEntityModelProvider img=null;
+            if(bSnap && !status.equalsIgnoreCase("INFO"))
+            {
+                long snapNumber=100000L;
+                snapNumber=takeSnap();
+                try
+                {
+                    img=MediaEntityBuilder.createScreenCaptureFromPath("images/"+snapNumber+".jpg").build();
+                }
+                catch(IOException e)
+                {
+                    log.error(e);
+                }
+            }
+            if(status.equalsIgnoreCase("pass"))
+            {
+                test.log(Status.PASS, desc, img);
+            }
+            else if(status.equalsIgnoreCase("fail"))
+            {
+                test.log(Status.FAIL, desc, img);
+            }
+            else if(status.equalsIgnoreCase("INFO"))
+            {
+                test.log(Status.INFO, desc,img);
+            }
+        }
+
+        public void reportStep(String desc,String status)
+        {
+
+            reportStep(desc,status,true);
+        }
+
+
+        @AfterSuite (alwaysRun=true )
+        public void stopReport() 
+        {
+            log.debug("Stopping and preparing the report...");
+            extent.flush();
+            log.info("Report prepared successfully");
+        }
+    }

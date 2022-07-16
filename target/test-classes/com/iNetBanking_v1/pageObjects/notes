@@ -1,0 +1,21 @@
+LOGIN PAGE
+-----------------------------------------------
+@CacheLookup
+------------
+Page object model is a wonderful design pattern to abstract out Web Page elements and its actions from actual tests. 
+This way tests do not have to worry about the creation/finding of WebElements. We use @FindBy and @FindAll annotations to mark a 
+WebElement in the Page Object. @CacheLookup is a very important and overlooked annotation that can help us make our tests run faster.
+@CacheLookup, as the name suggests helps us control when to cache a WebElement and when not to. This annotation, when applied 
+over a WebElement, instructs Selenium to keep a cache of the WebElement instead of searching for the WebElement every time from 
+the WebPage. This helps us save a lot of time.
+
+PageFactory.initElements()
+---------------------------
+Selenium Page Factory Pattern is like an extension to Page Object Model , but Page Factory is much enhanced model. 
+To start with, we just need to import package ‘org.openqa.selenium.support.PageFactory’
+"Factory class can be used to make using Page Objects simpler and easier".
+We use Page Factory pattern to initialize web elements which are defined in Page Objects.
+We should initialize page objects using initElements() method from PageFactory Class as below, 
+Once we call initElements() method, all elements will get initialized. PageFactory.initElements() static method takes 
+the driver instance of the given class and the class type, and returns a Page Object with its fields fully initialized.
+
